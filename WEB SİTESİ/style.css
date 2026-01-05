@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url(ysl.jpg);
+    height: 100vh;
+    background-size: 100% 100%
+}
+
+.container .navbar{
+    width: 100%;
+    height: 100px;
+    background: rgba(254, 215, 175, 0.825);
+   
+}
+.navbar .ttparfüm{
+display: inline-block;
+margin-left: 5px;
+margin-top: 35px;
+font-family: sans-serif;
+
+}
+
+.navbar .ttparfüm a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: rgb(174, 94, 9) ;
+  
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+
+}
+ 
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    color: rgb(174, 94, 9);
+    text-decoration: none;
+    font-size: 17px;
+    padding: 6px 13px;
+    transition: 0.50s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:rgb(249, 202, 152);
+    border-radius: 2px;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+}
+ .center h1{
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    
+ }
+ .center h2{
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+ }
+ .center .button{
+   margin-top: 20px;
+   height: 100px;
+   width: 120px;
+   font-size: 14px;
+   font-weight: bold;
+   color:rgb(174, 94, 9);
+   background: rgb(251, 206, 173);
+   border: solid 3px rgb(174, 94, 9);
+   cursor: pointer;
+   border-radius: 25px;
+   outline: none;
+   transition: 0.50s;
+ }
+
+ .center button:hover{
+    background: #fff;
+ }
+ h1 {
+    margin-left: 50px;
+  }
+  
+   header{
+    background: gray;
+    color: beige;
+    padding: 10px 0;
+    text-align: center;
+   }
+   article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+   }
+   .product{
+    background: white;
+    border: 1px solid #dddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px;
+    text-align: center;
+    width: 300px;
+   }
+   .product img{
+    max-width: 100%;
+    height: auto;
+   }
+  .footer{
+    display: grid;
+    place-items: center;
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    color: var(--pink);
+  }
+  .footer p{
+    margin: 0;
+    font-size: 18px;
+  }
+  .large-link{
+    font-size: 1.4rem;
+    color: brown;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+.large-link :hover{
+    color: white;
+    text-decoration: underline;
+}
+          
